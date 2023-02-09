@@ -19,6 +19,6 @@ describe 'classes' do
 
   it 'be_a/be_an' do
     expect(str).to be_a(StringNaoVazia) # Igual ao be_kind_of
-    expect(str).to be_a(String) # be_an ou be_a são iguais, muda apenas a concordância verbal
+    expect(str).to be_an(String) # be_an ou be_a são iguais, muda apenas a concordância verbal
   end
 end
