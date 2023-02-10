@@ -5,7 +5,6 @@ describe 'igualdade' do
       y = "ruby"
       expect(x).not_to equal(y)
     end
-
     it 'be' do
       x = "ruby"
       y = "ruby"
@@ -18,7 +17,6 @@ describe 'igualdade' do
       y = "ruby"
       expect(x).to eql(y)
     end
-
     it 'eq' do
       x = "ruby"
       y = "ruby"
