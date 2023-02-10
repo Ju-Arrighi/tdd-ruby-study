@@ -18,6 +18,13 @@
 require 'spec_helpers/helper'
 
 RSpec.configure do |config|
+  # Hook
+  config.before(:suite) do
+    puts '<<<<<<<<< ANTES DA SUITE DE TESTE >>>>>>>>>'
+  end
+  config.after(:suite) do
+    puts '<<<<<<<<< DEPOIS DA SUITE DE TESTE >>>>>>>>>'
+  end
   # Include module
   config.include Helper
   # rspec-expectations config goes here. You can use an alternate
